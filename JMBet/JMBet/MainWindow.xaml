@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="339" Width="263">
     <Grid>
-        <Label Content="JMBet" HorizontalAlignment="Left" Height="39" Margin="111,35,0,0" VerticalAlignment="Top" Width="62"/>
+        <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="111,35,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="16" Background="Transparent" Foreground="#FF7D57A0" FontWeight="Bold"/>
         <Button x:Name="btn_entra" Content="Entra" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="42"/>
+        <Button Content="Iscriviti" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" Width="41"/>
+        <Label Content="Bet" HorizontalAlignment="Left" Margin="148,37,0,0" VerticalAlignment="Top" FontSize="16" Background="Transparent" Foreground="#FFE7BB41" FontWeight="Bold"/>
 
     </Grid>
 </Window>
