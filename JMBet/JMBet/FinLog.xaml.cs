@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace JMBet
 {
     /// <summary>
-    /// Logica di interazione per MainWindow.xaml
+    /// Logica di interazione per FinLog.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FinLog : Window
     {
-        public MainWindow()
+        public FinLog()
         {
             InitializeComponent();
-        }
-
-        private void btn_entra_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }

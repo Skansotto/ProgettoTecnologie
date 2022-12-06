@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JMBet"
         mc:Ignorable="d"
-        Title="MainWindow" Height="339" Width="263">
+        Title="MainWindow" Height="339" Width="263" Background="#FF070227">
     <Grid>
-        <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="111,35,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="16" Background="Transparent" Foreground="#FF7D57A0" FontWeight="Bold"/>
-        <Button x:Name="btn_entra" Content="Entra" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Width="42"/>
-        <Button Content="Iscriviti" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" Width="41"/>
-        <Label Content="Bet" HorizontalAlignment="Left" Margin="148,37,0,0" VerticalAlignment="Top" FontSize="16" Background="Transparent" Foreground="#FFE7BB41" FontWeight="Bold"/>
+        <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="86,55,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="20" Background="Transparent" Foreground="#FF7D57A0" FontWeight="Bold"/>
+        <Button x:Name="btn_entra" Content="Entra" HorizontalAlignment="Center" Margin="0,147,0,0" VerticalAlignment="Top" Width="42" Background="#FF070227" Foreground="#FFEDEDED" BorderBrush="#FF070227" Click="btn_entra_Click"/>
+        <Button x:Name="btn_iscriviti" Content="Iscriviti" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="42" BorderBrush="#FF070227" Background="#FF070227" Foreground="#FFDEDEDE"/>
+        <Label Content="Bet" HorizontalAlignment="Left" Margin="126,54,0,0" VerticalAlignment="Top" FontSize="20" Background="Transparent" Foreground="#FFE7BB41" FontWeight="Bold"/>
 
     </Grid>
 </Window>
