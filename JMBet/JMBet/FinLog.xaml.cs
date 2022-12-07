@@ -23,5 +23,15 @@ namespace JMBet
         {
             InitializeComponent();
         }
+
+        private void text_user_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void text_user_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

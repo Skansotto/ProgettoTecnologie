@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace JMBet
 {
     /// <summary>
-    /// Logica di interazione per Home.xaml
+    /// Logica di interazione per formiscri.xaml
     /// </summary>
-    public partial class Home : Window
+    public partial class formiscri : Window
     {
-        public Home()
+        public formiscri()
         {
             InitializeComponent();
         }

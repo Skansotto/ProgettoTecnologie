@@ -5,17 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JMBet"
         mc:Ignorable="d"
-        Title="FinLog" Height="328" Width="300" Background="#FF070227">
+        Title="FinLog" Height="346" Width="267" Background="#272537">
     <Grid>
-        <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="88,55,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="20" Background="Transparent" Foreground="#FF7D57A0" FontWeight="Bold"/>
-        <Label Content="Bet" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" FontSize="20" Background="Transparent" Foreground="#FFE7BB41" FontWeight="Bold"/>
-        <Image HorizontalAlignment="Left" Height="20" Margin="56,118,0,0" VerticalAlignment="Top" Width="24" Source="/imgutente.png"/>
-        <TextBox x:Name="text_user" HorizontalAlignment="Left" Height="20" Margin="81,118,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="147" Background="#FF070227" Foreground="White" BorderBrush="#FF070227"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="56,118,0,0" VerticalAlignment="Top" Width="24" Source="/person.png" OpacityMask="Black"/>
+        <TextBox x:Name="text_user" HorizontalAlignment="Left" Height="20" Margin="81,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FF262537" Foreground="White" BorderBrush="#FF262537" MouseDown="text_user_MouseDown" TextChanged="text_user_TextChanged"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="56,143,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
-        <Image HorizontalAlignment="Left" Height="20" Margin="56,167,0,0" VerticalAlignment="Top" Width="24" Source="/imgpassword.png"/>
-        <TextBox x:Name="text_password" HorizontalAlignment="Left" Height="20" Margin="81,167,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="147" Background="#FF070227" Foreground="White" BorderBrush="#FF070227"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="56,167,0,0" VerticalAlignment="Top" Width="24" Source="/passwordim.png"/>
+        <TextBox x:Name="text_password" HorizontalAlignment="Left" Height="20" Margin="81,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FF262537" Foreground="White" BorderBrush="#FF262537"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="56,193,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
-        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Left" Height="31" Margin="75,237,0,0" VerticalAlignment="Top" Width="135" Background="#FF070227" Foreground="White" BorderBrush="#FF070227"/>
+        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Left" Height="31" Margin="75,237,0,0" VerticalAlignment="Top" Width="135" Background="#FF262537" Foreground="White" BorderBrush="#FF262537"/>
+        <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="86,55,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="20" Background="Transparent" Foreground="#FFD1495B" FontWeight="Bold"/>
+        <Label Content="Bet" HorizontalAlignment="Left" Margin="126,54,0,0" VerticalAlignment="Top" FontSize="20" Background="Transparent" Foreground="#FFEDAE49" FontWeight="Bold"/>
+        <Label Content="Username" HorizontalAlignment="Left" Height="23" Margin="76,90,0,0" VerticalAlignment="Top" Width="66" Background="#FF262537" Foreground="#FFF9F9F9"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="23" Margin="76,145,0,0" VerticalAlignment="Top" Width="63" Foreground="White"/>
 
     </Grid>
 </Window>

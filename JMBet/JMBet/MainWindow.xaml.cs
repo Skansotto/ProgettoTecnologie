@@ -27,7 +27,14 @@ namespace JMBet
 
         private void btn_entra_Click(object sender, RoutedEventArgs e)
         {
-            
+            FinLog finLog = new FinLog();
+            finLog.ShowDialog();
+        }
+
+        private void btn_iscriviti_Click(object sender, RoutedEventArgs e)
+        {
+            formiscri formiscri = new formiscri();  
+            formiscri.ShowDialog(); 
         }
     }
 }

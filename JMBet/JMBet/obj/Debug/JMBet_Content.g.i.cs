@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgpassword.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("passwordim.png")]
 
 

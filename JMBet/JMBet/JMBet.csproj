@@ -59,7 +59,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Home.xaml">
+    <Page Include="formiscri.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -74,8 +74,8 @@
     <Compile Include="FinLog.xaml.cs">
       <DependentUpon>FinLog.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
+    <Compile Include="formiscri.xaml.cs">
+      <DependentUpon>formiscri.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -113,6 +113,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="imgpassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imaagineprofilo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imageuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="passwordim.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
