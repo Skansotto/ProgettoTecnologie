@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace JMBet
 {
     /// <summary>
-    /// Logica di interazione per FinLog.xaml
+    /// Logica di interazione per HomeWindow.xaml
     /// </summary>
-    public partial class FinLog : Window
+    public partial class HomeWindow : Window
     {
-        public FinLog()
+        public HomeWindow()
         {
             InitializeComponent();
-        }
-
-        private void text_user_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void text_user_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

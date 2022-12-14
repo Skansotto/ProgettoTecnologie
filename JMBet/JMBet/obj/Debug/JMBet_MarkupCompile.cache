@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\github\ProgettoTecnologie\JMBet\JMBet\obj\Debug\
+C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debug\
 JMBet
 none
 false
 DEBUG;TRACE
-D:\github\ProgettoTecnologie\JMBet\JMBet\App.xaml
-31795724040
+C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\App.xaml
+10413876082
 
-7-997292870
-13-38814620
-FinLog.xaml;formiscri.xaml;MainWindow.xaml;
+16-387661843
+15767508510
+FinLogin.xaml;FinIscrizione.xaml;HomeWindow.xaml;MainWindow.xaml;MVVM\View\DiscoveryView.xaml;MVVM\View\HomeView.xaml;Theme\CloseButtonTheme.xaml;Theme\MenuButtonTheme.xaml;Theme\MinimizeButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
-False
+True
 

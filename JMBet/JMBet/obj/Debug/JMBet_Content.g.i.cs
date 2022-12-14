@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("passwordim.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("theme/images/cross.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("theme/images/minus.png")]
 
 
