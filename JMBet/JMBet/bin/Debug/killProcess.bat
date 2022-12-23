@@ -1,0 +1,1 @@
+taskkill /IM "JMBet.exe" /F

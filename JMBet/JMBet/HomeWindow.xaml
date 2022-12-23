@@ -6,20 +6,20 @@
         xmlns:local="clr-namespace:JMBet"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="JMBet.HomeWindow"
         mc:Ignorable="d"
-        Title="JMBet" Height="597" Width="960" Icon="/Img/ball.png" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight">
+        Title="JMBet" Height="540" Width="960" Icon="/Img/ball.png" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="SCOMMETTI" HorizontalAlignment="Left" Margin="629,316,0,213" Width="138"/>
-        <Label Content="squadra 1" HorizontalAlignment="Left" Margin="583,128,0,0" VerticalAlignment="Top" Width="64"/>
-        <Label Content="squadra 2" HorizontalAlignment="Left" Margin="756,128,0,0" VerticalAlignment="Top" Width="63"/>
-        <Label Content="VS" HorizontalAlignment="Left" Margin="686,128,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Match" HorizontalAlignment="Left" Margin="656,57,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="629,261,0,0" VerticalAlignment="Top" Width="64"/>
-        <Label Content="Giorno:" HorizontalAlignment="Left" Margin="629,230,0,0" VerticalAlignment="Top" Width="48"/>
-        <Label Content="Orario:" HorizontalAlignment="Left" Margin="629,199,0,0" VerticalAlignment="Top" Width="48"/>
+        <Button Content="SCOMMETTI" HorizontalAlignment="Left" Margin="480,283,0,0" Width="138" Height="74" VerticalAlignment="Top"/>
+        <Label Content="squadra 1" HorizontalAlignment="Left" Margin="434,95,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="squadra 2" HorizontalAlignment="Left" Margin="607,95,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="VS" HorizontalAlignment="Left" Margin="537,95,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Match" HorizontalAlignment="Left" Margin="504,24,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="480,228,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Giorno:" HorizontalAlignment="Left" Margin="480,197,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="Orario:" HorizontalAlignment="Left" Margin="480,166,0,0" VerticalAlignment="Top" Width="48"/>
         <ComboBox HorizontalAlignment="Left" Margin="45,99,0,0" VerticalAlignment="Top" Width="120"/>
         <Label Content="Benvenuto " HorizontalAlignment="Left" Margin="45,28,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Poppins" FontSize="20"/>
         <Label Content="Seleziona categoria:" HorizontalAlignment="Left" Margin="45,68,0,0" VerticalAlignment="Top"/>
-        <ListBox Margin="45,129,0,10" HorizontalAlignment="Left" Width="278">
+        <ListBox Margin="45,150,0,56" HorizontalAlignment="Left" Width="278">
             <System:String>Verona - Cagliari (Giovedì 11 Marzo, Ore: 20:45)</System:String>
             <System:String>stringa</System:String>
             <System:String>stringa</System:String>
