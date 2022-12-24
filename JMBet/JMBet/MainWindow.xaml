@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JMBet"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="JMBet" Height="339" Width="263" Background="#FF262537" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Img/ball.png">
     <Grid>
-        
+        <Label Content="  JM" HorizontalAlignment="Left" Height="39" Margin="66,54,0,0" VerticalAlignment="Top" Width="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="20" Background="Transparent" Foreground="#FFD1495B" FontWeight="Bold"/>
+        <Button x:Name="btn_entra" Content="Entra" HorizontalAlignment="Center" VerticalAlignment="Top" Width="113" BorderBrush="#FFEDAE49" Background="#FF262537" Foreground="#FFEDEDED" Click="btn_entra_Click" Height="35" Margin="0,117,0,0"/>
+        <Button x:Name="btn_iscriviti" Content="Iscriviti" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Width="113" BorderBrush="#FFEDAE49" Background="#FF262537" Foreground="#FFDEDEDE" Click="btn_iscriviti_Click" Height="33"/>
+        <Label Content="Bet" HorizontalAlignment="Left" Margin="116,53,0,0" VerticalAlignment="Top" FontSize="20" Background="Transparent" Foreground="#FFEDAE49" FontWeight="Bold" Width="64"/>
+
     </Grid>
 </Window>

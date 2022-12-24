@@ -1,0 +1,28 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JMBet"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="JMBet.HomeWindow"
+        mc:Ignorable="d"
+        Title="JMBet" Height="540" Width="960" Icon="/Img/ball.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="SCOMMETTI" HorizontalAlignment="Left" Margin="480,283,0,0" Width="138" Height="74" VerticalAlignment="Top"/>
+        <Label Content="squadra 1" HorizontalAlignment="Left" Margin="434,95,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="squadra 2" HorizontalAlignment="Left" Margin="607,95,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label Content="VS" HorizontalAlignment="Left" Margin="537,95,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Match" HorizontalAlignment="Left" Margin="504,24,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="480,228,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Giorno:" HorizontalAlignment="Left" Margin="480,197,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="Orario:" HorizontalAlignment="Left" Margin="480,166,0,0" VerticalAlignment="Top" Width="48"/>
+        <ComboBox HorizontalAlignment="Left" Margin="45,99,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Benvenuto " HorizontalAlignment="Left" Margin="45,28,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Poppins" FontSize="20"/>
+        <Label Content="Seleziona categoria:" HorizontalAlignment="Left" Margin="45,68,0,0" VerticalAlignment="Top"/>
+        <ListBox Margin="45,150,0,56" HorizontalAlignment="Left" Width="278">
+            <System:String>Verona - Cagliari (Giovedì 11 Marzo, Ore: 20:45)</System:String>
+            <System:String>stringa</System:String>
+            <System:String>stringa</System:String>
+        </ListBox>
+    </Grid>
+</Window>
