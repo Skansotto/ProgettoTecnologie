@@ -17,12 +17,14 @@
         <Label Content="Giorno:" HorizontalAlignment="Left" Margin="480,197,0,0" VerticalAlignment="Top" Width="48"/>
         <Label Content="Orario:" HorizontalAlignment="Left" Margin="480,166,0,0" VerticalAlignment="Top" Width="48"/>
         <ComboBox HorizontalAlignment="Left" Margin="45,99,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Benvenuto " HorizontalAlignment="Left" Margin="45,28,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Poppins" FontSize="20"/>
+        <Label Content="Scommesse " HorizontalAlignment="Left" Margin="45,28,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Poppins" FontSize="20"/>
         <Label Content="Seleziona categoria:" HorizontalAlignment="Left" Margin="45,68,0,0" VerticalAlignment="Top"/>
         <ListBox Margin="45,150,0,56" HorizontalAlignment="Left" Width="278">
             <System:String>Verona - Cagliari (Giovedì 11 Marzo, Ore: 20:45)</System:String>
             <System:String>stringa</System:String>
             <System:String>stringa</System:String>
         </ListBox>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="755,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="863,32,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

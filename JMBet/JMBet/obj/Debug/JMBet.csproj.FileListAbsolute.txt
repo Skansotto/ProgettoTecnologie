@@ -48,3 +48,5 @@ C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debu
 C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debug\HomeWindow.baml
 C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debug\MVVM\View\DiscoveryView.baml
 C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debug\MVVM\View\HomeView.baml
+C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\bin\Debug\SimpleTCP.dll
+C:\Users\skans\OneDrive\Documents\GitHub\ProgettoTecnologie\JMBet\JMBet\obj\Debug\JMBet.csproj.CopyComplete
