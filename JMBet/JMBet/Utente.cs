@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JMBet.MVVM.ViewModel
+namespace JMBet
 {
-    internal class DiscoveryViewModel
+    internal class Utente
     {
     }
 }
