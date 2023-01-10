@@ -23,10 +23,10 @@ namespace JMBet
         public ClientSocket(int port)
         {
             this.PORT = port;
-            //socket = new TcpClient(addr, PORT);
             socket = new TcpClient();
             socket.Connect("localhost", port);
             stream = socket.GetStream();
+
             newMex = false;
             messaggioCoda = false;
 
@@ -37,16 +37,16 @@ namespace JMBet
         public void Run()
         {
             connessione instanza = connessione.getInstance();
-            //String line = "END";
+
             try
             {
-                //instanza.setSocket(socket,stream);
                 while (true)
                 {
                     try
                     {
                         String line = instanza.recive();
                         m = line;
+
                         if (line != "ok\r\n")
                         {
                             newMex = true;

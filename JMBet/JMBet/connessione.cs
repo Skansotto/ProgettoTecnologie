@@ -27,7 +27,7 @@ namespace JMBet
             return _instance;
         }
         
-        public void send(String mex)
+        public void send(String mex) //Invia un messaggio al serverTCP, passato al metodo come "String mex"
         {
             while (stream.CanWrite == false) { }
             try
@@ -53,28 +53,26 @@ namespace JMBet
             stream.Flush();
         }
 
-        public String recive()
+        public String recive() //Riceve messaggi inviati dal serverTCP
         {
-            // String to store the response ASCII representation.
+            // Variabile in cui immagazzino il messaggio ricevito
             String responseData = "";
+
             while (stream.CanRead == false || stream.DataAvailable == false) { }
+
             try
             {
                 while (stream.DataAvailable == true)
                 {
-                    // Get a client stream for reading and writing.
-
-                    // Receive the TcpServer.response.
-
-                    // Buffer to store the response bytes.
+                    // "data" serve a immagazzinare i byte della risposta
                     data = new Byte[256];
 
-                    // Read the first batch of the TcpServer response bytes.
+                    // Legge il primo gruppo di bytes della risposta
                     Int32 bytes = stream.Read(data, 0, data.Length);
-                    //bytes = stream.ReadAsync(data, 0, data.Length).Result;
+
                     responseData += System.Text.Encoding.Default.GetString(data, 0, bytes);
                 }
-                //Console.WriteLine("Received: {0}", responseData);
+                Console.WriteLine("Ricevuti: {0}", responseData);
             }
             catch (ArgumentNullException e)
             {
@@ -84,12 +82,13 @@ namespace JMBet
             {
                 Console.WriteLine("SocketException: {0}", e);
             }
-            catch (IOException e) { }
+            catch (IOException) { }
 
             return responseData;
         }
 
         NetworkStream stream;
+
         public void setSocket(TcpClient socket, NetworkStream stream)
         {
             this.client = socket;
@@ -101,5 +100,4 @@ namespace JMBet
             return client;
         }
     }
-}
 }

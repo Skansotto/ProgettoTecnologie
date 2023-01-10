@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace JMBet
 {
-    internal class Utente
+    public class Utente
     {
+        int id;
+        String nome;
+
+        public Utente(int id, string nome)
+        {
+            this.id = id;
+            this.nome = nome;
+        }
+
+        public String toString()
+        {
+            return nome;
+        }
+
+        public int getId()
+        {
+            return id;
+        }
     }
 }
