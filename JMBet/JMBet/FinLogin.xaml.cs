@@ -39,5 +39,11 @@ namespace JMBet
             HomeWindow home = new HomeWindow();
             home.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+             formiscri formiscri = new formiscri();
+            formiscri.ShowDialog();
+    }
     }
 }

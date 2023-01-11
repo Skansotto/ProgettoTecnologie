@@ -29,59 +29,90 @@ namespace JMBet
     public partial class MainWindow : Window
     {
         private const string serverName = "localhost";
-
+        
+        public FinLog finLog = new FinLog();
+        public HomeWindow home = new HomeWindow();
+        public ClientSocket clientsocket = new ClientSocket(1234);
         public MainWindow()
-        {
-            InitializeComponent();
-        }
-
-        //Instaura connessione con sever TCP
-        static void DoConnect(String server, String message)
         {
             try
             {
-                int port = 8080;
-
-                TcpClient client = new TcpClient(server, port);
-
-                Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
-
-                NetworkStream stream = client.GetStream();
-
-                stream.Write(data, 0, data.Length);
-
-                Console.WriteLine("Sent: {0}", message);
-
-                data = new Byte[256];
-
-                String responseData = String.Empty;
-
-                Int32 bytes = stream.Read(data, 0, data.Length);
-
-                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
-
-                Console.WriteLine("Received: {0}", responseData);
-
+                
+                
+                InitializeComponent();
             }
             catch
-            (ArgumentNullException e)
             {
-                Console.WriteLine("ArgumentNullException: {0}", e);
+                catcherrore err = new catcherrore();
+                err.ShowDialog();
+                this.Close();
             }
 
+            
+            
         }
+
+        //Instaura connessione con sever TCP
+        //static void DoConnect(String server, String message)
+        //{
+        //    try
+        //    {
+        //        int port = 8080;
+
+        //        TcpClient client = new TcpClient(server, port);
+
+        //        Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
+
+        //        NetworkStream stream = client.GetStream();
+
+        //        stream.Write(data, 0, data.Length);
+
+        //        Console.WriteLine("Sent: {0}", message);
+
+        //        data = new Byte[256];
+
+        //        String responseData = String.Empty;
+
+        //        Int32 bytes = stream.Read(data, 0, data.Length);
+
+        //        responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+
+        //        Console.WriteLine("Received: {0}", responseData);
+
+        //    }
+        //    catch
+        //    (ArgumentNullException e)
+        //    {
+        //        Console.WriteLine("ArgumentNullException: {0}", e);
+        //    }
+
+        //}
 
         private void btn_entra_Click(object sender, RoutedEventArgs e)
         {
-            FinLog finLog = new FinLog();
-            HomeWindow home = new HomeWindow();
+            
+            
+            
 
             this.Hide();
 
             if(finLog.ShowDialog()==true)
             {
-                this.Close();
+                this.Hide();
                 finLog.Hide();
+                try
+                {
+                    clientsocket.Run();
+
+                }
+                catch
+                {
+                    catcherrore err = new catcherrore();
+                    err.ShowDialog();
+                    this.Close();
+                }
+
+              
                 home.Show();
             }
             else
@@ -89,16 +120,13 @@ namespace JMBet
                 this.Show();
             }
 
-
+            connessione instanza = connessione.getInstance();
+            instanza.send("skjgdfl");
             //inizializzare collegamento a server TCP
-            DoConnect(serverName, "Hi");
+            //DoConnect(serverName, "Hi");
 
         }
 
-        private void btn_iscriviti_Click(object sender, RoutedEventArgs e)
-        {
-            formiscri formiscri = new formiscri();  
-            formiscri.ShowDialog(); 
-        }
+        
     }
 }

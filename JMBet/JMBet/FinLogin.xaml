@@ -13,11 +13,12 @@
         <Image HorizontalAlignment="Left" Height="20" Margin="56,167,0,0" VerticalAlignment="Top" Width="24" Source="/Img/passwordim.png"/>
         <TextBox x:Name="text_password" HorizontalAlignment="Left" Height="20" Margin="81,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Background="#FF262537" Foreground="White" BorderBrush="#FF262537"/>
         <Rectangle HorizontalAlignment="Left" Height="1" Margin="56,193,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
-        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Center" Height="31" Margin="0,236,0,0" VerticalAlignment="Top" Width="135" Background="#FF262537" Foreground="White" BorderBrush="#FF262537" FontWeight="Bold" Click="btn_login_Click"/>
+        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Center" Height="31" Margin="0,226,0,0" VerticalAlignment="Top" Width="135" Background="#FF262537" Foreground="White" BorderBrush="#FF262537" FontWeight="Bold" Click="btn_login_Click"/>
         <Label Content="JM" HorizontalAlignment="Left" Height="39" Margin="86,55,0,0" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global Sans Serif" FontSize="20" Background="Transparent" Foreground="#FFD1495B" FontWeight="Bold"/>
         <Label Content="Bet" HorizontalAlignment="Left" Margin="126,54,0,0" VerticalAlignment="Top" FontSize="20" Background="Transparent" Foreground="#FFEDAE49" FontWeight="Bold"/>
         <Label Content="Username" HorizontalAlignment="Left" Height="23" Margin="76,90,0,0" VerticalAlignment="Top" Width="66" Background="#FF262537" Foreground="#FFF9F9F9"/>
         <Label Content="Password" HorizontalAlignment="Left" Height="23" Margin="76,145,0,0" VerticalAlignment="Top" Width="63" Foreground="White"/>
+        <Button Content="iscriviti" HorizontalAlignment="Center" Height="40" Margin="0,271,0,0" VerticalAlignment="Top" Width="135" Background="#FF262537" Foreground="White" FontWeight="Bold" BorderBrush="#FF272537" Click="Button_Click"/>
 
     </Grid>
 </Window>

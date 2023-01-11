@@ -14,14 +14,14 @@
         <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,126,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
         <Image HorizontalAlignment="Left" Height="20" Margin="58,150,0,0" VerticalAlignment="Top" Width="24" Source="/Img/passwordim.png"/>
         <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,176,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
-        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Center" Height="31" Margin="0,260,0,0" VerticalAlignment="Top" Width="136" Background="#FF262537" Foreground="White" BorderBrush="#FF30638E"/>
+        <Button x:Name="btn_login" Content="Login" HorizontalAlignment="Center" Height="31" Margin="0,260,0,0" VerticalAlignment="Top" Width="136" Background="#FF262537" Foreground="White" BorderBrush="#FF30638E" Click="btn_login_Click"/>
         <Label Content="Inserisci uno username:" HorizontalAlignment="Left" Height="24" Margin="79,72,0,0" VerticalAlignment="Top" Width="134" Background="#FF262537" Foreground="#FFF9F9F9"/>
         <Label Content="Inserisci una password:" HorizontalAlignment="Left" Height="32" Margin="79,128,0,0" VerticalAlignment="Top" Width="134" Foreground="White"/>
         <Label Content="Ripeti la password:" HorizontalAlignment="Left" Height="26" Margin="83,182,0,0" VerticalAlignment="Top" Width="130" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="20" Margin="58,202,0,0" VerticalAlignment="Top" Width="24" Source="/Img/passwordim.png"/>
         <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,228,0,0" Stroke="#FFDADADA" VerticalAlignment="Top" Width="172"/>
-        <PasswordBox Background="#FF262537" BorderBrush="#FF262537" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Height="23" Margin="83,153,0,0"/>
-        <PasswordBox Background="#FF262537" BorderBrush="#FF262537" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Height="24" Margin="83,204,0,0"/>
+        <PasswordBox x:Name="txtpass" Background="#FF262537" BorderBrush="#FF262537" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Height="23" Margin="83,153,0,0"/>
+        <PasswordBox x:Name="txtpass2" Background="#FF262537" BorderBrush="#FF262537" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Height="24" Margin="83,204,0,0"/>
 
     </Grid>
 </Window>
